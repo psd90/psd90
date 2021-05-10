@@ -1,0 +1,33 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    padding: 5px 5px;
+  }
+
+  a.social{
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a.social:hover{
+    transform: translateY(-3px);
+  }
+
+  a.github{
+    color: rgb(58, 58, 58);
+  }
+  a.github:hover{
+    transition: 1000ms;
+    color: rgb(241, 133, 60);
+  }
+  a.lkdin{
+    color: #0e76a8;
+  }
+  a.lkdin:hover{
+    transition: 1000ms;
+    color: rgb(241, 133, 60);
+  }

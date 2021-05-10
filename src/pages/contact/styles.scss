@@ -1,0 +1,85 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 163, 102, 0.842);
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 0px 1px 8px rgba($color: #ffb20c, $alpha: 0.6);
+}
+p.sub-title{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 0px 1px 3px rgba($color: #000000, $alpha: 0.6);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-container {
+    width: 600px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    border: 1px solid rgba($color: #ffac5e, $alpha: 0.2);
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 10px 33px 0px rgba($color: #000000, $alpha: 0.5);
+    .contact-info{
+        background-color: rgba(255, 108, 10, 0.274);
+        border-radius: 10px;
+        flex: 80%;
+        padding: 40px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        h4{
+            font-size: 2rem;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 500;
+            margin: 0;
+        }
+        p{
+            color: rgba($color: #000000, $alpha: 0.6);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.3rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        .icon-text{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 2rem;
+            .fa{
+                color:coral;
+                flex: 0 0 40px;
+                font-size: 2rem;
+                margin-right: 2rem;
+                background-color: rgba($color: #00ffc8, $alpha: 0.3);
+            }
+            span{
+                font-size: 2rem;
+                font-weight: 300;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        }
+        .social-media{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        padding-top: 15rem;
+    }
+    #contact-container  {
+      width: 400px;
+    }
+  }
