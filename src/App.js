@@ -4,14 +4,14 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 //pages
 import Home from './pages/home';
 import About from './pages/about';
-import Exp from './pages/exp';
+import Experience from './pages/exp';
 import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
-import Mdc from './pages/mdc';
-import Ss from './pages/ss';
-import Nn from './pages/nn';
-import Ma from './pages/ma';
-import Web from './pages/web';
+import MDCurries from './pages/mdc';
+import SklShr from './pages/ss';
+import NNews from './pages/nn';
+import Meteorite from './pages/ma';
+import Website from './pages/web';
 import './App.scss';
 
 
@@ -28,7 +28,7 @@ const App = () => {
           <About />
         )}/>
         <Route path="/exp" render={() => (
-          <Exp/>
+          <Experience/>
         )}/>
         <Route path="/portfolio" render={() => (
           <Portfolio />
@@ -37,19 +37,19 @@ const App = () => {
           <Contact />
         )}/>
         <Route path="/mrsdhillonscurries" render={() => (
-          <Mdc />
+          <MDCurries />
         )}/>
         <Route path="/sklshr" render={() => (
-          <Ss />
+          <SklShr />
         )}/>
         <Route path="/ncnews" render={() => (
-          <Nn />
+          <NNews />
         )}/>
         <Route path="/meteorite" render={() => (
-          <Ma />
+          <Meteorite />
         )}/>
         <Route path="/website" render={() => (
-          <Web />
+          <Website />
         )}/>
       </Switch>
       </BrowserRouter>

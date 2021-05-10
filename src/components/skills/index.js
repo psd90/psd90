@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './styles.scss';
 
 
@@ -24,9 +24,9 @@ const Skills = () => {
         document.querySelector('.bg-modal').style.display = 'none';
     })}
 
-    var close = document.querySelector('.close1')
-    if(close){
-        close.addEventListener('click', function(){
+    var close1 = document.querySelector('.close1')
+    if(close1){
+        close1.addEventListener('click', function(){
         document.querySelector('.bg-modal1').style.display = 'none';
     })}
 
@@ -40,7 +40,7 @@ const Skills = () => {
     return (
         <div className="skills">
             <div className="selectors">
-                From Post Office Clerk to Full Stack Developer, my time with Northcoders has given me the confidence to investigate any technology and build applications along side other developers in a productive manner.
+                From Post Office Clerk to Full Stack Developer, my time with Northcoders has given me the confidence to investigate  technologies and build applications along side other developers in a productive manner.
                 <br /><br />
                 I have encountered many new <a href="#" id="button-s" class="button-s">technologies </a>.<br /> Gained new <a href="#" id="button-a" class="button-s">personal skills </a>. <br /> And worked on a portfolio of &nbsp; 
              <a href="portfolio"class="button-s" >projects </a>.

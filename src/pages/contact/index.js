@@ -9,8 +9,6 @@ const Contact = () => {
     return (
         <div className="contact">
             <Header />
-        <h1>Contact Me</h1>
-        <p className="sub-title">If you have any questions, dont hesitate to ask me.</p>
         <div id="contact-container">
         <div className="contact-info">
             <h4>
