@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import {Switch, Route, HashRouter} from 'react-router-dom';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 //pages
 import Home from './pages/home';
 import About from './pages/about';
@@ -19,7 +19,7 @@ import './App.scss';
 const App = () => {
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter>
       <Switch>
       <Route exact path="/" render={() => (
         <Home />
@@ -52,7 +52,7 @@ const App = () => {
           <Web />
         )}/>
       </Switch>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
