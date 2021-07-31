@@ -21,13 +21,6 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
-  html {
-    font-size: 0.4rem;
-    width: auto;
-    overflow-x: hidden;
-  }
-}
 
 
 body{
@@ -35,8 +28,7 @@ body{
   max-width: 100%;
   overflow-x: hidden;
   height: 100%;
-  transition: background 150s ease;
-  background: url('./images/sea.jpg') no-repeat center fixed;
+  background-color:white;
   background-size: cover;
   scroll-behavior: smooth;
 }

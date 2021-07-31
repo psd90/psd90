@@ -6,9 +6,9 @@ import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import './styles.scss';
 
 const Contact = () => {
-    return (
-        <div className="contact">
+    return (<div>
             <Header />
+        <div className="contact">
         <div id="contact-container">
         <div className="contact-info">
             <h4>
@@ -35,6 +35,7 @@ const Contact = () => {
                 <FontAwesomeIcon icon={faLinkedin} size="3x"/>
             </a>
             </div>
+        </div>
         </div>
         </div>
         </div>

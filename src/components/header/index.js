@@ -1,28 +1,31 @@
 import React from 'react';
 import './styles.scss';
-import face from './../../images/face.png'
-import {useHistory} from 'react-router-dom';
+import Perminder from './../../images/perminder.png'
 
 
 const Header = () => {
     
     
-    
-    const history = useHistory();
-    
+    function scroll() {
+        window.scrollTo({
+            top: 1000,
+            behavior: 'smooth'
+        })
+    }
     return (
         <div className="header">
-            psd-
-            <button type="button" className="button1" onClick={()=>history.push('/')}>
-            <img src={face} alt="Head" height="150"/>
-            <div className="overlay1 overlay1--blur">
-            <div className="title">Go Home </div>
-            <p className="overlay_desc">
-               
-            </p>
+            <a href="./">
+            <img className="logo" src={Perminder} alt="Head" height="150"/>
+            </a>   
+            <div className="menu">
+            <ul className="menu-list">
+                <li><a href="./">Home</a></li>
+                <li><a href="./contact">Contact</a></li>
+                <li><a href="./about">About Me</a></li>
+            </ul>
             </div>
-            </button>
-        </div>
+            </div>
+       
     )
 }
 

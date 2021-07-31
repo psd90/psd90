@@ -9,10 +9,9 @@ const Mdc = () => {
         <div>
         <Side />
         <div className="content">
-        <h1>Mrs Dhillon's Curries
-        https://order-664f0.web.app/
-        </h1>
-        <p> I'm building a food pre-order site (for my Mum, if you are wondering) that an Admin can create a cut-off date for customers
+        <a href="https://order-664f0.web.app/"><h1>Mrs Dhillon's Curries
+        </h1></a>
+        <p> I'm building a food pre-order site (for my Mum) that an Admin can create a cut-off date for customers
 to create/delete orders. <br />Once the date has passed, no orders can be created/deleted and the Admin
 can view all statistics such as; total amounts to prepare, to view and print order labels for each
 customers order and also clear completed orders once orders have been collected.<br /><br />

@@ -5,9 +5,6 @@ import contact from './../../images/contact.png';
 const Projects = () => {
     return (
         <div>
-             <h3 className="prj-h3">
-            Projects <br/>(click one to view more)
-            </h3>
             <div className="projects">
                 <ul>
                     <li className="list"><a href="mrsdhillonscurries" >Mrs Dhillons Curries<h4>This is a project I completed after finishing the bootcamp</h4></a></li>
