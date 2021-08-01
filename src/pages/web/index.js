@@ -15,7 +15,7 @@ const Web = () => {
         I feel that in itself shows a lot about who I am as a person; a perfectionist who strives for but never reaches perfection..<br /><br /><br />
         It is a React app that is styled with SCSS.<br /><br />
         I would love to spend more time on it, but I have decided that a finished portfolio is better than a perfect one, especially with all the house renovations on-going!<br /><br />
-        I hope you have enjoyed visiting and I look forward to hearing from you.... </p>
+        I hope you have enjoyed visiting and I look forward to hearing from you... </p>
         
         <p className="p2"> <a href="contact" >Contact Me</a></p>
         </div>
