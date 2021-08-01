@@ -2,15 +2,16 @@ import React from 'react';
 import Side from './../../components/side';
 import './styles.scss';
 import SS from './../../images/loading.gif';
-import Logo from './../../images/Logo.png';
+import Header from '../../components/header';
 
 const Ss = () => {
     return (
         <div>
+        <Header />
         <Side />
         <div className="content">
         <h1>SklShr</h1>
-        <p>SklShr (skill share) is an application that me and a team of 3 others planned, designed and implemented in the last 3 week phase of the Bootcamp.<br /><br />
+        <p className="p1">SklShr (skill share) is an application that me and a team of 3 others planned, designed and implemented in the last 3 week phase of the Bootcamp.<br /><br />
             The App allows users to sign up and create a profile which, depending on their own interests and skills, will be matched with other users in order of distance. <br /><br />
             There is instant messaging functionality too which is made possible by TalkJS. We made use of a Postcode API to sort the results by distance. 
             The backend uses Firebase Authentication and utilises it's Realtime Database while the front end was built with React.

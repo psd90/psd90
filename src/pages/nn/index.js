@@ -1,14 +1,16 @@
 import React from 'react';
 import Side from './../../components/side';
+import Header from './../../components/header';
 import './styles.scss';
 
 const Nn = () => {
     return (
         <div>
+        <Header />
         <Side />
         <div className="content">
         <h1>Northcoders-News</h1>
-        <p> This Application was my first full stack application ever!<br />
+        <p className="p1"> This Application was my first full stack application ever!<br />
         <br />
         The App is a reddit clone that allows users to view and write articles whilst also being able to vote on articles and topics.
         It was built using React, PSQL and Express.<br /><br />
