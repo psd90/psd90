@@ -14,7 +14,8 @@ const Contact = () => {
             <h4>
                 Perminder Singh Dhillon
             </h4>
-            <p>Junior Full Stack Developer </p>
+            <br/>
+            <br/>
             <div className="icon-text">
                 <FontAwesomeIcon className={`fa`} icon={faPhoneVolume} />
                 <span>+44 7403315513</span>

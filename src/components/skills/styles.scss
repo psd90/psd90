@@ -1,10 +1,6 @@
-
-
 .skills{
     color: blanchedalmond;
-    padding-top: 10rem;
     text-align: left;
-
 }
 
 .bg-modal{
@@ -45,7 +41,7 @@
     justify-content: center;
     align-items: center;
     display: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway', sans-serif;
     overflow: hidden;
     position: fixed;
     
@@ -110,7 +106,6 @@ svg{
 	background-color: transparent;
 	border-radius: 30px;
 	text-decoration: none;
-    border: dotted .1rem blanchedalmond;
 	color: white;
     padding-left: .6rem;
     padding-top: 0.2rem;
@@ -126,18 +121,14 @@ svg{
 }
 
 .selectors{
-    text-align: left;
+    text-align: center;
     word-spacing: .23rem;
     font-size: 2rem;
     background-color: rgba($color: #000000, $alpha: 0.78);
     border-radius: 2rem;
     padding: 2rem;
-    width:44rem;
-    line-height: 3rem;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width:auto;
+
 }
 
 @media only screen and (max-width: 600px) {

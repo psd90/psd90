@@ -16,7 +16,8 @@ p.sub-title{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 8rem;
+    padding-top: 18rem;
+    padding-bottom: 5rem;
 }
 
 #contact-container {
@@ -29,7 +30,7 @@ p.sub-title{
     backdrop-filter: blur(8px);
     box-shadow: 0px 10px 33px 0px rgba($color: #000000, $alpha: 0.5);
     .contact-info{
-        background-color: rgba(167, 117, 83, 0.74);
+        background-color: rgba(255, 255, 255, 0.74);
         border-radius: 10px;
         flex: 80%;
         padding: 40px;
@@ -38,16 +39,18 @@ p.sub-title{
         flex-direction: column;
         h4{
             font-size: 2rem;
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'Raleway', sans-serif;
             font-weight: 500;
             margin: 0;
+            text-align: center;
         }
         p{
-            color: rgba($color: #000000, $alpha: 0.6);
-            font-family: 'Courier New', Courier, monospace;
+            color: coral;
+            font-family: 'Raleway', sans-serif;
             font-size: 1.3rem;
-            font-weight: 300;
+            font-weight: 100;
             margin-bottom: 2rem;
+            text-align: center;
         }
         .icon-text{
             display: flex;
@@ -55,17 +58,17 @@ p.sub-title{
             align-items: center;
             margin-bottom: 2rem;
             .fa{
-                color:coral;
+                color:rgb(255, 255, 255);
                 flex: 0 0 40px;
                 font-size: 2rem;
                 margin-right: 2rem;
-                background-color: rgba($color: #6dffdf, $alpha: 0.83);
-                border-radius: 2rem;
+                background-color: rgba($color: #000000, $alpha: 0.83);
+                border-radius: 1rem;
             }
             span{
                 font-size: 2rem;
                 font-weight: 300;
-                font-family: 'Courier New', Courier, monospace;
+                font-family: 'Raleway', sans-serif;
             }
         }
         .social-media{

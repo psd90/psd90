@@ -40,10 +40,7 @@ const Skills = () => {
     return (
         <div className="skills">
             <div className="selectors">
-                From Post Office Clerk to Full Stack Developer, my time with Northcoders has given me the confidence to investigate  technologies and build applications along side other developers in a productive manner.
-                <br /><br />
-                I have encountered many new <a href="#" id="button-s" class="button-s">technologies </a>.<br /> Gained new <a href="#" id="button-a" class="button-s">personal skills </a>. <br /> And worked on a portfolio of &nbsp; 
-             <a href="portfolio"class="button-s" >projects </a>.
+                Take a look at my<a href="#" id="button-s" class="button-s">tech stack </a>.<br /> View my <a href="#" id="button-a" class="button-s">personal skills </a>. 
             
             
             </div>

@@ -17,9 +17,9 @@ const Info = () => {
             a more fulfilling and challenging career in software development.<br />
             
             It was then I joined Northcoders who run a coding Bootcamp. <br /> 
-           Having completed the very intense 14 week Bootcamp with the prestigious Northcoders, I am now ready to utilise my new <a href="/exp">skills*</a> and learn so much more.<br/>
+           Having completed the very intense 14 week Bootcamp with the prestigious Northcoders, I am now ready to utilise my new skills and learn so much more.<br/>
             <br /> <br /> 
-             I completed several projects with Northcoders, which you can view here: <a href="/portfolio"><img src={glasses} alt="nc-gif" height="40"/></a> , <br/> and since graduating I have developed a full stack application of my own whilst renovating my new home since the turn of the year.
+             I completed several projects with Northcoders, and since graduating I have developed a full stack application of my own whilst renovating my new home since the turn of the year.
              <br /> <br /> check out Northcoders&nbsp;
              <a href="https://northcoders.com/"><img src={north} alt="nc-gif" height="40"/></a> 
             
