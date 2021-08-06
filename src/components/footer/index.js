@@ -7,10 +7,10 @@ const Footer = () => {
     return (
         <div className="footer">
             <a href="https://github.com/psd90" className="github social">
-                <FontAwesomeIcon icon={faGithub} size="5x"/>
+                <FontAwesomeIcon icon={faGithub} size="2x"/>
             </a>
             <a href="https://www.linkedin.com/in/psd90" className="lkdin social">
-                <FontAwesomeIcon icon={faLinkedin} size="5x"/>
+                <FontAwesomeIcon icon={faLinkedin} size="2x"/>
             </a>
         </div>
     )

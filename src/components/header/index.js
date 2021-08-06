@@ -18,7 +18,6 @@ const Header = () => {
                 <li><a href="./about">About Me</a></li>
             </ul>
             </div>
-            <div class="line"></div>
             </div>
        
     )

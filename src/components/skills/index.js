@@ -10,6 +10,8 @@ const Skills = () => {
         sk.addEventListener('click', function(){
             document.querySelector('.bg-modal').style.display = 'flex';
             document.querySelector('#prx').style.display = 'none';
+            document.querySelector('.vid').style.display = 'none';
+            document.querySelector('.landing-text').style.display = 'none';
             
     })}
 
@@ -18,6 +20,8 @@ const Skills = () => {
         att.addEventListener('click', function(){
             document.querySelector('.bg-modal1').style.display = 'flex';
             document.querySelector('#prx').style.display = 'none';
+            document.querySelector('.vid').style.display = 'none';
+            document.querySelector('.landing-text').style.display = 'none';
     })}
 
    
@@ -26,6 +30,8 @@ const Skills = () => {
         close.addEventListener('click', function(){
         document.querySelector('.bg-modal').style.display = 'none';
         document.querySelector('#prx').style.display = 'flex';
+        document.querySelector('.vid').style.display = 'flex';
+        document.querySelector('.landing-text').style.display = 'flex';
     })}
 
     var close1 = document.querySelector('.close1')
@@ -33,6 +39,8 @@ const Skills = () => {
         close1.addEventListener('click', function(){
         document.querySelector('.bg-modal1').style.display = 'none';
         document.querySelector('#prx').style.display = 'flex';
+        document.querySelector('.vid').style.display = 'flex';
+        document.querySelector('.landing-text').style.display = 'flex';
     })}
 
   

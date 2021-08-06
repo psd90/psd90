@@ -14,15 +14,18 @@ const Home = () => {
     return (
         <div class="main">
             <Header />
-            <div className="slogan">
-            <h3>
-            'From Post Office Clerk to Full Stack Developer, my time of study with Northcoders has given me the confidence to investigate technologies and build applications along side other developers and alone in a productive manner. <br/>Below are some of the applications I have contributed and written code for, so please scroll through and take a look..'
-            </h3>
-            <h2 className="landing">
-            <Skills/>
-            </h2>
-            </div>
             <Projects />
+            <h3 className="landing-text">
+            'From Post Office Clerk to Full Stack Developer, 
+            my time of study with Northcoders has given me the confidence 
+            to investigate technologies and build applications along side other
+             developers and alone in a productive manner. 
+             <br/>Above are some of the applications I have contributed and written code for,
+              so please scroll through and take a look.
+              <br/>Below are my skills and attributes with a video showcasing a project I worked on.
+    
+            </h3>
+            <Skills/>
             <h3 className="description">
                 Watch my Northcoders group project presentation below.
             </h3>

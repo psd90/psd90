@@ -1,6 +1,6 @@
 
+
 .heading{
-    transform: translateY(130px);
     text-align: center;
     font-size: 2rem;
 }
@@ -9,34 +9,29 @@
     height: 100%;
     text-align: center;
     font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 30% 80%;
 }
 
 
 .dog,.dog1,.dog2,.dog4,.menu1{
-    width: 50%;
+    width: 60%;
     padding: 1rem;
-    transform: translateY(120px);
+    transform: translateY(90px);
 }
 
 .part1{
-   padding: 5rem;
    p{
     transform: translateY(130px);
+    margin-left:-2rem;
+    margin-right: -5rem;
    }
 }
 .part2{
-    transform: translateY(-170px);
-    padding: 5rem;
-   p{
-    transform: translateY(130px);
-   }
-}
-.part3{
-    transform: translateY(-270px);
-    padding: 5rem;
-   p{
-    transform: translateY(130px);
-   }
+    transform: translateY(5rem);
+    margin-left: -2rem;
+    margin-right: -3rem;
+    padding-bottom: 2rem;
 }
 a{
     color: rgb(0, 0, 0);

@@ -12,6 +12,7 @@
     width: 8em
 }
 .landing-text{
+    text-align: center;
     color: black;
     margin-top: -3rem;
     font-weight: 100;
@@ -23,16 +24,11 @@
     clear: both;
 }
 .vid{
-    position: relative;
-    width: 700px;
-    height: 400px;
-    top: 50%;
-    left: 35%;
+    transform: translateX(50%);
+    width: 50%;
     margin-bottom: 6rem;
     border: white;
 }
   .description{
-    position: relative;
-    top: 50%;
-    left: 40%;
+      text-align: center;
   }
