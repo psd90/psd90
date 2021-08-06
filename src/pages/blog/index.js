@@ -1,7 +1,5 @@
 import React from 'react';
-import Header from '../../components/header';
 import Footer from '../../components/footer';
-import coco from './../../images/work/coco.JPEG';
 import doggy2 from './../../images/2.jpg';
 import doggy4 from './../../images/4.jpg';
 import doggy from './../../images/5.jpg';

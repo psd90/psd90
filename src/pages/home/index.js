@@ -29,7 +29,7 @@ const Home = () => {
             <h3 className="description">
                 Watch my Northcoders group project presentation below.
             </h3>
-            <iframe allow="fullscreen" className="vid" 
+            <iframe allow="fullscreen" title="Skll Shr" className="vid" 
                 src="https://www.youtube.com/embed/KJQ4svIAVQY">
             </iframe>
             <Footer />

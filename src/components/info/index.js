@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.scss';
 import north from './../../images/north.gif'
-import glasses from './../../images/glasses.png';
 
 const Info = () => {
     return (

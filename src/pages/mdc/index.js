@@ -2,7 +2,6 @@ import React from 'react';
 import Side from './../../components/side';
 import Header from './../../components/header';
 import './styles.scss';
-import Phone from './../../images/mdc.png';
 import Logo from './../../images/Logo.png';
 
 const Mdc = () => {
