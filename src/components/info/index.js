@@ -20,6 +20,7 @@ const Info = () => {
            Having completed the very intense 14 week Bootcamp with the prestigious Northcoders, I am now ready to utilise my new skills and learn so much more.<br/>
             <br /> <br /> 
              I completed several projects with Northcoders, and since graduating I have developed a full stack application of my own whilst renovating my new home since the turn of the year.
+             <br />See what I have been upto on my <a href="blog">blog</a>
              <br /> <br /> check out Northcoders&nbsp;
              <a href="https://northcoders.com/"><img src={north} alt="nc-gif" height="40"/></a> 
             

@@ -1,29 +1,51 @@
 .header{
     position: fixed;
     width: 100%;
-    padding-top: 4rem;  
+    padding-top: 7rem;  
     display: flex;  
     z-index: 999;
-    margin-top: -4rem;
+    margin-top: -6rem;
     background-color: white;
+    .logo-tag{
+        transform: translateY(.25rem);
+    }
+    .line{
+        width: 100%;
+        height: 1rem;
+        background-image: linear-gradient(rgba(255, 136, 0, 0.521), rgba(255, 115, 0, 0.034));
+        position: absolute;
+        transform: translateX(-2.5rem) translateY(5rem);
+        }
     .logo{
-        width: 33rem;
+        width: 32rem;
         padding-top: 1rem;
         margin-left: -1rem;
+        transform: translateX(-2rem);
     }
     .menu-list{
         list-style-type: none;
         position: absolute;
         top: 1;
         right: 0;
+        transform: translateX(1rem)translateY(3px);
         padding-right: 5rem;
         font-family: 'Raleway', sans-serif;
+        
         a { 
             color: rgb(0, 0, 0);
+            &:hover {
+                color: coral;
+                transition: 700ms;
+            }
         }
     }
     ul>li{
         display: inline-block;
         margin-left: 1rem;
     }
+}
+.landing:after{
+    content: "";
+    display: block;
+    clear: both;
 }

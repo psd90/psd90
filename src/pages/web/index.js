@@ -1,8 +1,8 @@
 import React from 'react';
 import Side from './../../components/side';
 import './styles.scss';
-import contact from './../../images/contact.png';
 import Header from '../../components/header';
+import Face from './../../images/face.gif';
 
 const Web = () => {
     return (
@@ -17,7 +17,9 @@ const Web = () => {
         I would love to spend more time on it, but I have decided that a finished portfolio is better than a perfect one, especially with all the house renovations on-going!<br /><br />
         I hope you have enjoyed visiting and I look forward to hearing from you... </p>
         
-        <p className="p2"> <a href="contact" >Contact Me</a></p>
+        <p className="p2"> <a href="contact" >Contact</a></p>
+        <p className="p3"> <a href="about" >About </a></p>
+        <img className="logo" src={Face} alt="Logo"/>
         </div>
         </div>
     )

@@ -1,0 +1,47 @@
+
+.heading{
+    transform: translateY(130px);
+    text-align: center;
+    font-size: 2rem;
+}
+.post{
+    transform: translateY(-120px);
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.dog,.dog1,.dog2,.dog4,.menu1{
+    width: 50%;
+    padding: 1rem;
+    transform: translateY(120px);
+}
+
+.part1{
+   padding: 5rem;
+   p{
+    transform: translateY(130px);
+   }
+}
+.part2{
+    transform: translateY(-170px);
+    padding: 5rem;
+   p{
+    transform: translateY(130px);
+   }
+}
+.part3{
+    transform: translateY(-270px);
+    padding: 5rem;
+   p{
+    transform: translateY(130px);
+   }
+}
+a{
+    color: rgb(0, 0, 0);
+            &:hover {
+                color: coral;
+                transition: 700ms;
+            }
+}

@@ -25,7 +25,6 @@ This App allows the admin to delete and add items. The user
         the batch size to not be sufficient to satisfy everyone who payed for one.<br /><br />
         The backend uses Firebase Authentication and utilises it's Realtime Database while the front end was built with React.</p>
         <p className="p2"> * This app is currently in production</p>
-        <img className="phone" src={Phone} alt="Phone"/>
         <img className="logo" src={Logo} alt="Logo"/>
         </div>
         </div>

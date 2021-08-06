@@ -1,15 +1,18 @@
 .side{
     height: auto;
-    padding-top: 5rem;
+    padding-top: 7rem;
     width: 10%;
     padding-bottom: 1rem;
-    left: 1;
     font-family: 'Raleway', sans-serif;
     color:  rgb(241, 133, 60);
     font-size: 5rem;
     justify-content: left;
     place-items: center;
-  
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: 100;
+    transform: translateX(-1rem) translateY(1rem);
 }
 .overlay2{
   position:absolute;
@@ -28,7 +31,7 @@
   opacity: 1;
 }
 .overlay2:hover > * {
-  transform: translateY(6rem);
+  transform: translateY(2.5rem);
 }
 .overlay2 > * {
   margin-top: auto;
@@ -72,8 +75,4 @@
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }}
 
-  @media only screen and (max-width: 600px) {
-    .header{
-        width: 101%;
-    }
-  }
+ 

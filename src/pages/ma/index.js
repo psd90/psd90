@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/header';
 import Side from './../../components/side';
+import Meteor from './../../images/meteor.gif';
 import './styles.scss';
 
 const Ma = () => {
@@ -14,6 +15,7 @@ const Ma = () => {
         The application takes the users desired search condition and then plots out the results on a map. 
         <br /><br />This app uses React for the frontend and the NASA API for the data.</p>
         <p className="p2"> <a href="https://github.com/lancaster-coder1991/Meteorite_React_SPA/">View GitHub Repo</a></p>
+        <img className="logo" src={Meteor} alt="Logo"/>
         </div>
         </div>
     )

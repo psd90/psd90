@@ -9,12 +9,15 @@ const Skills = () => {
     if(sk){
         sk.addEventListener('click', function(){
             document.querySelector('.bg-modal').style.display = 'flex';
+            document.querySelector('#prx').style.display = 'none';
+            
     })}
 
     var att = document.getElementById('button-a')
     if(att){
         att.addEventListener('click', function(){
             document.querySelector('.bg-modal1').style.display = 'flex';
+            document.querySelector('#prx').style.display = 'none';
     })}
 
    
@@ -22,12 +25,14 @@ const Skills = () => {
     if(close){
         close.addEventListener('click', function(){
         document.querySelector('.bg-modal').style.display = 'none';
+        document.querySelector('#prx').style.display = 'flex';
     })}
 
     var close1 = document.querySelector('.close1')
     if(close1){
         close1.addEventListener('click', function(){
         document.querySelector('.bg-modal1').style.display = 'none';
+        document.querySelector('#prx').style.display = 'flex';
     })}
 
   
@@ -40,7 +45,7 @@ const Skills = () => {
     return (
         <div className="skills">
             <div className="selectors">
-                Take a look at my<a href="#" id="button-s" class="button-s">tech stack </a>.<br /> View my <a href="#" id="button-a" class="button-s">personal skills </a>. 
+                Take a look at my<a href="#" id="button-s" class="button-s">tech stack </a><br /> View my <a href="#" id="button-a" class="button-s">personal skills </a>
             
             
             </div>

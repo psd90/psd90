@@ -5,9 +5,10 @@ import Header from './../../components/header';
 
 const Portfolio = () => {
     return (
-        <div>  
+        <div className="portfolio">  
             <Header />
             <Projects />
+            <h3 className="scroll"> Scroll through ---> </h3>
             <Footer />
         </div>
     )

@@ -5,16 +5,10 @@ import Perminder from './../../images/perminder.png'
 
 const Header = () => {
     
-    
-    function scroll() {
-        window.scrollTo({
-            top: 1000,
-            behavior: 'smooth'
-        })
-    }
+
     return (
         <div className="header">
-            <a href="./">
+            <a className="logo-tag" href="./">
             <img className="logo" src={Perminder} alt="Head" height="150"/>
             </a>   
             <div className="menu">
@@ -24,6 +18,7 @@ const Header = () => {
                 <li><a href="./about">About Me</a></li>
             </ul>
             </div>
+            <div class="line"></div>
             </div>
        
     )

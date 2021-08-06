@@ -13,9 +13,19 @@
     width: 400px;
     text-decoration: none;a:visited { text-decoration: none; color:coral; }
     a:hover, a:active { text-decoration: none; color:black}
+    transition-duration: .51s;
+    .pic{
+        width: 30%;
+    }
+    .pic1{
+        width: 31%;
+    }
+    .pic3{
+        width: 34%;
+    }
 }
 #prx{
-    width: 90%;
+    width: 98%;
     height: auto;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -42,6 +52,7 @@ h4{
 #projects{
     padding-top: 5rem;
     padding-bottom: 10rem;
+    text-align: center;
 }
 
 a{

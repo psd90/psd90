@@ -4,7 +4,6 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 //pages
 import Home from './pages/home';
 import About from './pages/about';
-import Experience from './pages/exp';
 import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
 import MDCurries from './pages/mdc';
@@ -12,6 +11,7 @@ import SklShr from './pages/ss';
 import NNews from './pages/nn';
 import Meteorite from './pages/ma';
 import Website from './pages/web';
+import Blog from './pages/blog';
 import './App.scss';
 
 
@@ -26,9 +26,6 @@ const App = () => {
         )}/>
         <Route path="/about" render={() => (
           <About />
-        )}/>
-        <Route path="/exp" render={() => (
-          <Experience/>
         )}/>
         <Route path="/portfolio" render={() => (
           <Portfolio />
@@ -50,6 +47,9 @@ const App = () => {
         )}/>
         <Route path="/website" render={() => (
           <Website />
+        )}/>
+        <Route path="/blog" render={() => (
+          <Blog />
         )}/>
       </Switch>
       </BrowserRouter>
