@@ -126,8 +126,6 @@ svg{
 }
 
 .button-s {
-	background-color: transparent;
-	border-radius: 30px;
 	text-decoration: none;
 	color: white;
     padding-left: .6rem;
@@ -135,7 +133,6 @@ svg{
     padding-bottom: 0.2rem;
 	&:hover {
 		color: coral;
-		border: 2px solid coral;
 
         padding-left: .6rem;
         padding-top: 0.2rem;
@@ -145,7 +142,7 @@ svg{
 
 .selectors{
     text-align: center;
-    word-spacing: .23rem;
+    word-spacing: 0.1rem;
     font-size: 1.7rem;
     background-color: rgba($color: #000000, $alpha: 0.78);
     padding: 1rem;
@@ -154,6 +151,3 @@ svg{
 }
 
 
-@media only screen and (max-width: 720px) {
-    
-  }

@@ -12,6 +12,7 @@ const Skills = () => {
             document.querySelector('#prx').style.display = 'none';
             document.querySelector('.vid').style.display = 'none';
             document.querySelector('.landing-text').style.display = 'none';
+            document.querySelector('.selectors').style.display = 'none';
             
     })}
 
@@ -22,6 +23,7 @@ const Skills = () => {
             document.querySelector('#prx').style.display = 'none';
             document.querySelector('.vid').style.display = 'none';
             document.querySelector('.landing-text').style.display = 'none';
+            document.querySelector('.selectors').style.display = 'none';
     })}
 
    
@@ -32,6 +34,7 @@ const Skills = () => {
         document.querySelector('#prx').style.display = 'flex';
         document.querySelector('.vid').style.display = 'flex';
         document.querySelector('.landing-text').style.display = 'flex';
+        document.querySelector('.selectors').style.display = 'block';
     })}
 
     var close1 = document.querySelector('.close1')
@@ -41,6 +44,7 @@ const Skills = () => {
         document.querySelector('#prx').style.display = 'flex';
         document.querySelector('.vid').style.display = 'flex';
         document.querySelector('.landing-text').style.display = 'flex';
+        document.querySelector('.selectors').style.display = 'block';
     })}
 
   
@@ -53,7 +57,11 @@ const Skills = () => {
     return (
         <div className="skills">
             <div className="selectors">
-                Take a look at my<a href="#" id="button-s" class="button-s">tech stack </a><br /> View my <a href="#" id="button-a" class="button-s">personal skills </a>
+                Take a look at my<a href="#!" id="button-s" class="button-s">tech stack </a>
+                <br />
+                 View my<a href="#!" id="button-a" class="button-s">personal skills </a>
+                 <br/>
+                 Read<a href="./about" class="button-s">about me</a>
             
             
             </div>
